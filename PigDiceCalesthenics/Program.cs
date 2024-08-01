@@ -21,7 +21,7 @@ namespace PigGameCalesthenics
                 {
                     turnSum = turnSum + rolledNumber;
                     Console.WriteLine("Your turn score is {0} and Total score is {1}", turnSum, totalScore);
-                    if (totalScore + turnSum > 20)
+                    if (totalScore + turnSum >= 20)
                     {
                         Console.WriteLine("Your Total score is {0}", totalScore + turnSum);
                         return turnSum;
